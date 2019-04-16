@@ -2475,18 +2475,15 @@ let RadialMenu = class RadialMenu extends LitElement {
         return html `
       <ha-card .header="${this._config.name}">
         <div @click="${this._moreInfo}">${this._computeDisplay(stateObj)}</div>
-        <paper-icon-button
+        <mwc-button
           .action="${stateObj.state === "active" ? "pause" : "start"}"
           @click="${this._handleClick}"
-          .icon="${stateObj.state === "active" ? "mdi:pause" : "mdi:play"}"
-          .title="${stateObj.state === "active" ? "Pause" : "Start"}"
-        ></paper-icon-button>
-        <paper-icon-button
-          .action="${"cancel"}"
-          @click="${this._handleClick}"
-          icon="mdi:timer-off"
-          title="Cancel"
-        ></paper-icon-button>
+        >
+          ${stateObj.state === "active" ? "STOP" : "START"}
+        </mwc-button>
+        <mwc-button .action="${"cancel"}" @click="${this._handleClick}">
+          RESET
+        </mwc-button>
       </ha-card>
     `;
     }
