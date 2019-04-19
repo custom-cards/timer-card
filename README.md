@@ -11,6 +11,9 @@
 [![Discord][discord-shield]][discord]
 [![Community Forum][forum-shield]][forum]
 
+[![Twitter][twitter]][twitter]
+[![Github][github]][github]
+
 This element is for [Lovelace](https://www.home-assistant.io/lovelace) on [Home Assistant](https://www.home-assistant.io/) that that shows a timer and its controls.
 
 <!-- ![example](example.gif) -->
@@ -74,3 +77,5 @@ Inspiration taken from [Creative Punch](https://codepen.io/CreativePunch/pen/lAH
 [maintenance-shield]: https://img.shields.io/badge/maintainer-Ian%20Richardson%20%40iantrich-blue.svg?style=for-the-badge
 [releases-shield]: https://img.shields.io/github/release/custom-cards/timer-card.svg?style=for-the-badge
 [releases]: https://github.com/custom-cards/timer-card/releases
+[twitter]: https://img.shields.io/twitter/follow/iantrich.svg?style=social
+[github]: https://img.shields.io/github/followers/iantrich.svg?style=social
