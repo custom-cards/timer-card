@@ -61,8 +61,6 @@ name: 'Laundry'
 
 [Troubleshooting](https://github.com/thomasloven/hass-config/wiki/Lovelace-Plugins)
 
-Inspiration taken from [Creative Punch](https://codepen.io/CreativePunch/pen/lAHiu)
-
 [buymecoffee]: https://www.buymeacoffee.com/iantrich
 [buymecoffeebadge]: https://img.shields.io/badge/buy%20me%20a%20coffee-donate-blue.svg?style=for-the-badge
 [commits-shield]: https://img.shields.io/github/commit-activity/y/custom-cards/timer-card.svg?style=for-the-badge
