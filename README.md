@@ -54,9 +54,9 @@ resources:
 Add a custom element in your `ui-lovelace.yaml` or in the UI Editor as a Manual Card
 
 ```yaml
-type: 'custom:timer-card'
-icon: 'timer.laundry'
-name: 'Laundry'
+- type: custom:timer-card
+  entity: timer.laundry
+  name: Laundry
 ```
 
 [Troubleshooting](https://github.com/thomasloven/hass-config/wiki/Lovelace-Plugins)
