@@ -55,7 +55,7 @@ Add a custom element in your `ui-lovelace.yaml` or in the UI Editor as a Manual 
 
 ```yaml
 type: 'custom:timer-card'
-icon: 'timer.laundry'
+entity: 'timer.laundry'
 name: 'Laundry'
 ```
 
